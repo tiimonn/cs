@@ -7,7 +7,7 @@
 	"setting.gpu_mem_level"		"3"
 	"setting.gpu_level"		"3"
 	"setting.knowndevice"		"0"
-	"setting.defaultres"		"1440"
+	"setting.defaultres"		"1920"
 	"setting.defaultresheight"		"1080"
 	"setting.refreshrate_numerator"		"144001"
 	"setting.refreshrate_denominator"		"1000"
@@ -30,6 +30,6 @@
 	"setting.videocfg_hdr_detail"		"3"
 	"setting.videocfg_fsr_detail"		"0"
 	"setting.r_low_latency"		"1"
-	"setting.aspectratiomode"		"0"
+	"setting.aspectratiomode"		"1"
 	"setting.monitor_index"		"0"
 }
