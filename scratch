@@ -1,0 +1,192 @@
+https://store.steampowered.com/app/3478870/GeoGuessr_Steam_Edition/
+https://cs2inspects.com/
+
++csgo_econ_action_preview S76561199071013903A43439098228D5344682641295364385
+
+!i S76561199071013903A43439098228D5344682641295364385
+
+
++csgo_econ_action_preview S76561198821053249A43335473467D4678235415363471128
+
+steam://rungame/730/76561202255233023/+csgo_econ_action_preview S76561198821053249A43335473467D4678235415363471128
+
+steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S76561198439379209A40386397002D495513125550650076
+
+
+---
+
+## my shayla
+
+Current ID: 3343218352
+Original ID: 1495130613
+
+Exterior: Factory New
+0.01058149803429841995
+Pattern Index: 810
+Current ID: 18625205247
+
+!g 1355299984 413 810 0.0162 0 0 0 0 0 0 0 0 0 0 0 0
+csgo_econ_action_preview 0018FA03209D0328013885BCB5E10340AA065A096D7920736861796C615EFE56CF
+https://csgoskins.gg/blog/gut-knife-marble-fade-fire-and-ice-seed-patterns
+
+https://steamcommunity.com/id/BigKoxxy
+last known owner
+
+
+---
+
+## best
+
+Exterior: Factory New
+0.00558149803429841995
+Pattern Index: 412
+
+!g 1355301731 413 412 0.0171 0 0 0 0 0 0 0 0 0 0 0 0
+csgo_econ_action_preview 0018FA03209D0328013880CADBDD03409C035A096D7920736861796C619EF806B1
+
+
+---
+
+connect vertigo.epidemic.gg
+
+  - glock: shinobu
+  - M4A4: Neo-Noir
+  - M4A4: Temukau
+
+
+---
+
+
+commands:
+
+### without nades
+sv_cheats 1;mp_roundtime_defuse 60;mp_roundtime_hostage 60;mp_roundtime_defuse 60;mp_roundtime 60;mp_maxmoney 50000;mp_startmoney 50000;mp_freezetime 0;mp_teammates_are_enemies true;sv_infinite_ammo 1;mp_drop_knife_enable true;bind capslock noclip;mp_restartgame 1;
+
+sv_cheats 1;
+mp_maxrounds 16;
+mp_freezetime 10;
+mp_buy_anywhere 0;
+bot_kick;
+mp_restartgame 1;
+
+### with nades
+sv_cheats 1;mp_roundtime_defuse 60;mp_roundtime_hostage 60;mp_roundtime_defuse 60;mp_roundtime 60;mp_maxmoney 50000;mp_startmoney 50000;mp_freezetime 0;mp_teammates_are_enemies true;sv_infinite_ammo 1;mp_drop_knife_enable true;bind capslock noclip;
+sv_grenade_trajectory_prac_pipreview 1;
+sv_grenade_trajectory_prac_trailtime 15; 
+mp_buy_anywhere 1;mp_buytime 60000;
+mp_restartgame 1;
+
+
+
+Bind mwheeldown +jump;bind mwheelup +jump;bind space +jump
+
+
+
+https://www.xda-developers.com/how-re-enable-nvidia-image-sharpening/
+https://www.reddit.com/r/techsupport/comments/1j8vlu0/nvidia_control_panel_access_denied_when_saving/
+---
+
+
+
+viewmodel_offset_x 2.5;viewmodel_offset_y -2;viewmodel_offset_z -2;viewmodel_fov 54;
+
+donk:
+
+
+viewmodel_fov 68;
+viewmodel_offset_x 2.5;
+viewmodel_offset_y 0;
+viewmodel_offset_z -1.5;
+viewmodel_presetpos 3;
+
+zywoo:
+
+
+viewmodel_fov 68;
+viewmodel_offset_x 2.5;
+viewmodel_offset_y 0;
+viewmodel_offset_z -1.5;
+viewmodel_presetpos 3;
+
+dings:
+
+viewmodel_fov 68;
+viewmodel_offset_x 2.5;
+viewmodel_offset_y 0;
+viewmodel_offset_z -1.5;
+
+timon:
+
+viewmodel_presetpos 0;
+viewmodel_offset_x 2.5;
+viewmodel_offset_y 0.5;
+viewmodel_offset_z -1.5;
+viewmodel_fov 68;
+cl_prefer_lefthanded 1;
+
+
+subclass_change <knife_id>
+- 503 classic
+- 515 butterfly
+- 516 shadow daggers
+- 500 bayonet
+- 508 m9 bayonet
+- 507 karambit
+- 523 talon
+- 509 huntsman
+- 514 bowie
+- 519 ursus
+- 525 skeleton
+- 518 survival
+- 517 paracord
+- 521 nomad
+- 512 falchion
+- 505 flip
+- 506 gut knife
+- 522 stiletto
+- 520 navaja
+
+subclass_create 517; subclass_change 517 weapon_knife
+
+## bots
+
+bot_kick
+bot_difficulty 3
+
+## bind
+
+bind 7 noclip
+
+
+https://store.steampowered.com/subscriber_agreement/#2
+
+https://steamcommunity.com/dev/apiterms
+
+https://steamcommunity.com/dev
+
+https://developer.valvesoftware.com/wiki/Counter-Strike_2_Workshop_Tools
+
+
+https://pricempire.com/cs2-items/skin/desert-eagle-cobalt-disruption/stattrak-factory-new
+
+https://counterstrike.fandom.com/wiki/Operation_Bloodhound
+
+https://csnades.gg/dust2/smokes/xbox-from-t-spawn-railing-b
+
+https://docs.google.com/document/d/1_HnFFEKlpsj_myD18OcO2Xfe2CofkszbQ51cuPQEDMU/edit?tab=t.0
+
+https://steamcommunity.com/sharedfiles/edititem/767/3/
+
+$J('#image_width').val(1000).attr('id',''),$J('#image_height').val(1).attr('id','');
+
+settings timon
+https://settings.gg/cs2/o6
+
+
+
+### glock goon craft
+
+https://i.imgur.com/qnC5oLt.png
+https://cs2inspects.com/sticker-customizer/?apply=0018042081012801380040016219080010E13D1D000000002D0000A6C23D7B55C03D45BA63603E6219080110E13D1D000000002D0000A6C23D13EB903E4525136B3E6219080010C3071D000000002D8BE8DB403DC6FD3A3D45441AFB3D6219080210F43D1D000000002D3B3387C13D65E4013F45C7C0713E40E3C818
+
+Infinite Triangle
