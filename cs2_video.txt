@@ -21,7 +21,7 @@
 	"Autoconfig"		"2"
 	"setting.shaderquality"		"0"
 	"setting.r_texturefilteringquality"		"5"
-	"setting.msaa_samples"		"2"
+	"setting.msaa_samples"		"8"
 	"setting.r_csgo_cmaa_enable"		"0"
 	"setting.videocfg_shadow_quality"		"0"
 	"setting.videocfg_dynamic_shadows"		"1"
@@ -29,7 +29,7 @@
 	"setting.videocfg_particle_detail"		"0"
 	"setting.videocfg_ao_detail"		"0"
 	"setting.videocfg_hdr_detail"		"3"
-	"setting.videocfg_fsr_detail"		"0"
-	"setting.r_low_latency"		"1"
+	"setting.videocfg_fsr_detail"		"1"
+	"setting.r_low_latency"		"2"
 	"setting.aspectratiomode"		"0"
 }
