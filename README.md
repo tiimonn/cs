@@ -36,5 +36,7 @@ After that, set the file to readonly
 
 [Scancodes](https://totalcsgo.com/binds/converter)
 
+[Bind](https://developer.valvesoftware.com/wiki/Bind)
+
 PageUp scancode75
 PageDown scancode78
