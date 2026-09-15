@@ -1,0 +1,26 @@
+# CS:GO-era cvars that CS2 no longer has, but that still circulate in
+# copy-pasted configs. CS2 prints "Unknown command" for these and keeps
+# loading - so a hit here is always a warning, never a hard error.
+# One token per line, '#' starts a comment. Verified against build 2026-09.
+cl_interp
+cl_interp_ratio
+cl_updaterate
+cl_cmdrate
+cl_lagcompensation
+mat_queue_mode
+mat_monitorgamma
+mat_monitorgamma_tv_enabled
+m_rawinput
+m_customaccel
+cl_forcepreload
+cl_disablefreezecampanel
+cl_autohelp
+cl_showhelp
+net_graphproportionalfont
+violence_hblood
+fps_max_menu
+cl_bob_lower_amt
+cl_bobamt_lat
+cl_bobamt_vert
+cl_bobcycle
+cl_righthand

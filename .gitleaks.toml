@@ -1,0 +1,24 @@
+title = "gitleaks config for tiimonn/cs"
+
+[extend]
+# Start from gitleaks' default, community-maintained ruleset (AWS keys,
+# private keys, generic high-entropy tokens near keywords, etc.)...
+useDefault = true
+
+# ...and add a rule for Steam/CS:GO-style product & redemption keys. These
+# are personal, revocable secrets but the default ruleset does not catch
+# them: they aren't keyword-adjacent in the way the generic-api-key rule
+# expects, so a bare "// CSGO-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx" comment slips
+# through undetected. Format: a short product prefix (CSGO, CS2, ...)
+# followed by 4-5 hyphen-separated groups of alphanumeric characters.
+[[rules]]
+id = "steam-cd-key"
+description = "Steam/CS:GO-style product or redemption key"
+regex = '''\b[A-Z0-9]{3,5}-[A-Za-z0-9]{4,5}-[A-Za-z0-9]{4,5}-[A-Za-z0-9]{4,5}-[A-Za-z0-9]{4,5}(-[A-Za-z0-9]{4,5})?\b'''
+keywords = ["csgo", "cs2", "steam"]
+
+[allowlist]
+# .backups/ is gitignored (deploy.ps1's own backup copies) and never reaches
+# git history or the remote - excluded here only to keep manual full-tree
+# `gitleaks detect --no-git` scans from re-reporting the same finding twice.
+paths = ['''^\.backups/''']

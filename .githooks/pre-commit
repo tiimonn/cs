@@ -1,0 +1,25 @@
+#!/bin/sh
+# Blocks a commit if gitleaks finds a likely secret in the staged changes.
+# Enabled via: git config core.hooksPath .githooks   (one-time, per clone)
+
+if ! command -v gitleaks >/dev/null 2>&1; then
+    echo "pre-commit: gitleaks is not installed or not on PATH." >&2
+    echo "  Install it, then retry the commit:" >&2
+    echo "    winget install --id Gitleaks.Gitleaks -e" >&2
+    echo "    choco install gitleaks" >&2
+    echo "    scoop install gitleaks" >&2
+    echo "  (or grab a release from https://github.com/gitleaks/gitleaks/releases)" >&2
+    exit 1
+fi
+
+repo_root=$(git rev-parse --show-toplevel)
+
+gitleaks protect --staged --redact --config "$repo_root/.gitleaks.toml" -v
+status=$?
+
+if [ $status -ne 0 ]; then
+    echo "" >&2
+    echo "pre-commit: gitleaks found a likely secret in your staged changes - commit blocked." >&2
+    echo "  Remove it, or if this is a false positive, add an allowlist entry to .gitleaks.toml." >&2
+fi
+exit $status

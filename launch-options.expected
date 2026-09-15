@@ -1,0 +1,5 @@
+# Expected CS2 (appid 730) Steam launch options.
+# One line, no leading "+"/"-" parsing magic - deploy.ps1 splits on whitespace.
+# CS2 auto-executes csgo/cfg/autoexec.cfg on its own; this is belt-and-braces,
+# not load-bearing.
++exec autoexec.cfg -console -high -fullscreen
